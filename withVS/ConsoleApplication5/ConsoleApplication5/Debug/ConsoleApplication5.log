@@ -1,0 +1,6 @@
+﻿  소스.c
+d:\문서들\project\projects\consoleapplication5\consoleapplication5\소스.c(11): warning C4477: 'scanf' : 서식 문자열 '%d'에 'int *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'double *'입니다.
+d:\문서들\project\projects\consoleapplication5\consoleapplication5\소스.c(11): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: 'scanf' 선언을 참조하십시오.
+  ConsoleApplication5.vcxproj -> D:\문서들\project\projects\ConsoleApplication5\Debug\ConsoleApplication5.exe
+  ConsoleApplication5.vcxproj -> D:\문서들\project\projects\ConsoleApplication5\Debug\ConsoleApplication5.pdb (Partial PDB)

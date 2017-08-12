@@ -1,0 +1,5 @@
+﻿  소스.c
+d:\문서들\project\projects\consoleapplication2\consoleapplication2\소스.c(10): warning C4013: 'gets'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+d:\문서들\project\projects\consoleapplication2\consoleapplication2\소스.c(19): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  ConsoleApplication2.vcxproj -> D:\문서들\project\projects\ConsoleApplication2\Debug\ConsoleApplication2.exe
+  ConsoleApplication2.vcxproj -> D:\문서들\project\projects\ConsoleApplication2\Debug\ConsoleApplication2.pdb (Partial PDB)

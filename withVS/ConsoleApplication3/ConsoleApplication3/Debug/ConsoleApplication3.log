@@ -1,0 +1,8 @@
+﻿  소스.c
+d:\문서들\project\projects\consoleapplication3\consoleapplication3\소스.c(17): warning C4013: 'time'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+d:\문서들\project\projects\consoleapplication3\consoleapplication3\소스.c(68): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: 'scanf' 선언을 참조하십시오.
+d:\문서들\project\projects\consoleapplication3\consoleapplication3\소스.c(117): warning C4474: 'printf' : 서식 문자열에 전달된 인수가 너무 많습니다.
+  d:\문서들\project\projects\consoleapplication3\consoleapplication3\소스.c(117): note: 자리 표시자 및 해당 매개 변수에는 variadic 인수가 0개 필요하지만 1개가 제공되었습니다.
+  ConsoleApplication3.vcxproj -> D:\문서들\project\projects\ConsoleApplication3\Debug\ConsoleApplication3.exe
+  ConsoleApplication3.vcxproj -> D:\문서들\project\projects\ConsoleApplication3\Debug\ConsoleApplication3.pdb (Partial PDB)
