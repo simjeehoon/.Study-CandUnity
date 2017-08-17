@@ -10,7 +10,7 @@ int main(void)
 	while (1)
 	{
 		if (endcode) printf("\n비정상적인 종료\n");
-		printf("\n[exitcode: -1]\ninput code:");
+		printf("\n[exitcode: -1] [testcode: -2]\ninput code:");
 		scanf("%d", &code);
 		printf("\n");
 		switch (code)
@@ -27,11 +27,26 @@ int main(void)
 		case 301:
 			endcode = yun301();
 			break;
+		case 302:
+			endcode = yun302();
+			break;
+		case 304:
+			endcode = yun304();
+			break;
+		case 305:
+			endcode = yun305();
+			break;
+		case 306:
+			endcode = yun306();
+			break;
 		case -1:
 			return 0;
 			break;
+		case -2:
+			endcode = test01();
+			break;
 		default:
-			printf("Error invaild code.\n");
+			printf("Error : invaild code.\n");
 			break;
 		}
 	}
