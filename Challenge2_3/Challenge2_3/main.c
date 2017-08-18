@@ -39,6 +39,9 @@ int main(void)
 		case 306:
 			endcode = yun306();
 			break;
+		case 140101:
+			endcode = yunm140101();
+			break;
 		case -1:
 			return 0;
 			break;
