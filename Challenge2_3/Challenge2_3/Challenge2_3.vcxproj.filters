@@ -30,6 +30,42 @@
     <ClCompile Include="yun301.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="yun302.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="메모.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="test.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="yun304.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="yun305.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="yun306.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="yunm140101.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="yunm140102.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="yunm160101.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="yunm160102.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="yunm160103.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="yunm170101.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">

@@ -139,11 +139,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="test.c" />
     <ClCompile Include="yun203.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="yun204.c" />
     <ClCompile Include="yun205.c" />
     <ClCompile Include="yun301.c" />
+    <ClCompile Include="yun302.c" />
+    <ClCompile Include="yun304.c" />
+    <ClCompile Include="yun305.c" />
+    <ClCompile Include="yun306.c" />
+    <ClCompile Include="yunm140101.c" />
+    <ClCompile Include="yunm140102.c" />
+    <ClCompile Include="yunm160101.c" />
+    <ClCompile Include="yunm160102.c" />
+    <ClCompile Include="yunm160103.c" />
+    <ClCompile Include="yunm170101.c" />
+    <ClCompile Include="메모.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h" />

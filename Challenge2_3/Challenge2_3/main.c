@@ -42,6 +42,21 @@ int main(void)
 		case 140101:
 			endcode = yunm140101();
 			break;
+		case 140102:
+			endcode = yunm140102();
+			break;
+		case 160101:
+			endcode = yunm160101();
+			break;
+		case 160102:
+			endcode = yunm160102();
+			break;
+		case 160103:
+			endcode = yunm160103();
+			break;
+		case 170101:
+			endcode = yunm170101();
+			break;
 		case -1:
 			return 0;
 			break;
