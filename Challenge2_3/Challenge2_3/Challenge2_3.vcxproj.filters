@@ -66,6 +66,24 @@
     <ClCompile Include="yunm170101.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="yunm180101.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="yunm180102-5.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="yunm210101.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="yunm210201.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="yunm210202.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="yunm210203.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">

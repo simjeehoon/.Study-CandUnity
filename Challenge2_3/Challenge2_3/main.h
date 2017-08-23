@@ -14,5 +14,20 @@ int yun301();
 int yun302();
 int yun304(); 
 int yun305();
+int yun306();
+int yunm140101();
+int yunm140102();
+int yunm160101();
+int yunm160103();
+int yunm160102();
+int yunm170101();
+int yunm180101();
+int clear();
+int yunm180102();
+int yunm180103();
+int yunm210101();
+int yunm210201();
+int yunm210202();
+int yunm210203();
 
 #endif

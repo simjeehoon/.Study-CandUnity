@@ -155,6 +155,12 @@
     <ClCompile Include="yunm160102.c" />
     <ClCompile Include="yunm160103.c" />
     <ClCompile Include="yunm170101.c" />
+    <ClCompile Include="yunm180101.c" />
+    <ClCompile Include="yunm180102-5.c" />
+    <ClCompile Include="yunm210101.c" />
+    <ClCompile Include="yunm210201.c" />
+    <ClCompile Include="yunm210202.c" />
+    <ClCompile Include="yunm210203.c" />
     <ClCompile Include="메모.c" />
   </ItemGroup>
   <ItemGroup>
