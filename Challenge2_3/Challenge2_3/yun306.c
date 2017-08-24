@@ -1,6 +1,6 @@
 #include "main.h"
-void number_determine(int * nums);
-static void input(int * mynum);
+void number_determine(int nums[]);
+static void input(int mynum[]);
 static int compare(int mynum[], int nums[]);
 
 int yun306() {

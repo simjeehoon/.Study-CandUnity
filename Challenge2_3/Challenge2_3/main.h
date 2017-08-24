@@ -6,6 +6,7 @@
 #include <stdlib.h>
 #include <time.h>
 
+void bufferreset();
 int test01();
 int yun203(void);
 int yun204();
@@ -23,11 +24,12 @@ int yunm160102();
 int yunm170101();
 int yunm180101();
 int clear();
-int yunm180102();
-int yunm180103();
 int yunm210101();
 int yunm210201();
 int yunm210202();
 int yunm210203();
+int yunm230101();
+int yunm220101();
+int yunm230201();
 
 #endif

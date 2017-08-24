@@ -2,10 +2,7 @@
 
 int test01()
 {
-	int num;
-	printf("%d\n", num);
-	scanf("%d", &num);
-
+	printf("%d", atoi("À¸12"));
 	return 0;
 }
 

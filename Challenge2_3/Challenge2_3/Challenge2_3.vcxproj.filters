@@ -84,6 +84,15 @@
     <ClCompile Include="yunm210203.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="yunm220101.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="yunm230101.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="yunm230201.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">

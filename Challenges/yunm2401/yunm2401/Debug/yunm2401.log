@@ -1,0 +1,6 @@
+﻿  main.c
+d:\documents\project\yunseongwu_c\fileinput\yunm2401\yunm2401\main.c(5): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: 'fopen' 선언을 참조하십시오.
+d:\documents\project\yunseongwu_c\fileinput\yunm2401\yunm2401\main.c(6): warning C4101: 'str' :참조되지 않은 지역 변수입니다.
+  yunm2401.vcxproj -> D:\Documents\project\YunSeongWu_C\fileinput\yunm2401\Debug\yunm2401.exe
+  yunm2401.vcxproj -> D:\Documents\project\YunSeongWu_C\fileinput\yunm2401\Debug\yunm2401.pdb (Partial PDB)

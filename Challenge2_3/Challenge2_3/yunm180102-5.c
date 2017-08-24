@@ -1,3 +1,4 @@
+/*
 #include "main.h"
 void SimpleFuncOne(int *arr1, int *arr2){}
 void SimpleFuncTwo(int (*arr3)[4], int (*arr4)[4]){}
@@ -25,7 +26,7 @@ int yunm180103() {
 	ComplexFuncTwo(arr3, arr4);
 	return 0;
 }
-
+*/
 /*
 	arr[i] == *(arr+i)
 	

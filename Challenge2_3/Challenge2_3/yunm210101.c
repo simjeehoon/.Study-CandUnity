@@ -1,5 +1,5 @@
 #include <stdio.h>
-void deletebuffer() {
+static void deletebuffer() {
 	while (getchar() != '\n')
 		;
 }

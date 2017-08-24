@@ -1,8 +1,45 @@
-﻿  yunm210202.c
-d:\documents\project\yunseongwu_c\challenge2_3\challenge2_3\yunm210202.c(26): warning C4013: 'strcpy'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-d:\documents\project\yunseongwu_c\challenge2_3\challenge2_3\yunm210202.c(20): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+﻿  yunm180102-5.c
+  yunm180101.c
+  yunm170101.c
+d:\documents\project\yunseongwu_c\challenge2_3\challenge2_3\yunm170101.c(11): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: 'scanf' 선언을 참조하십시오.
-d:\documents\project\yunseongwu_c\challenge2_3\challenge2_3\yunm210202.c(23): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  yunm160103.c
+d:\documents\project\yunseongwu_c\challenge2_3\challenge2_3\yunm160103.c(11): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: 'scanf' 선언을 참조하십시오.
+  yunm160102.c
+  yunm160101.c
+  yunm140102.c
+  yunm140101.c
+d:\documents\project\yunseongwu_c\challenge2_3\challenge2_3\yunm140101.c(10): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: 'scanf' 선언을 참조하십시오.
+d:\documents\project\yunseongwu_c\challenge2_3\challenge2_3\yunm140101.c(15): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: 'scanf' 선언을 참조하십시오.
+  yun306.c
+d:\documents\project\yunseongwu_c\challenge2_3\challenge2_3\yun306.c(39): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: 'scanf' 선언을 참조하십시오.
+  yun305.c
+d:\documents\project\yunseongwu_c\challenge2_3\challenge2_3\yun305.c(24): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: 'scanf' 선언을 참조하십시오.
+  yun304.c
+  yun302.c
+d:\documents\project\yunseongwu_c\challenge2_3\challenge2_3\yun302.c(13): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: 'scanf' 선언을 참조하십시오.
+  yun301.c
+  yun205.c
+d:\documents\project\yunseongwu_c\challenge2_3\challenge2_3\yun205.c(12): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: 'scanf' 선언을 참조하십시오.
+  yun204.c
+d:\documents\project\yunseongwu_c\challenge2_3\challenge2_3\yun204.c(9): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: 'scanf' 선언을 참조하십시오.
+  yun203.c
+d:\documents\project\yunseongwu_c\challenge2_3\challenge2_3\yun203.c(22): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: 'scanf' 선언을 참조하십시오.
+  test.c
+  main.c
+d:\documents\project\yunseongwu_c\challenge2_3\challenge2_3\main.c(24): warning C4013: 'running'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+d:\documents\project\yunseongwu_c\challenge2_3\challenge2_3\main.c(19): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: 'scanf' 선언을 참조하십시오.
+  코드를 생성하고 있습니다...
+d:\documents\project\yunseongwu_c\challenge2_3\challenge2_3\yun305.c(64): warning C4715: 'compare': 모든 제어 경로에서 값을 반환하지는 않습니다.
   Challenge2_3.vcxproj -> D:\Documents\project\YunSeongWu_C\Challenge2_3\Debug\Challenge2_3.exe
   Challenge2_3.vcxproj -> D:\Documents\project\YunSeongWu_C\Challenge2_3\Debug\Challenge2_3.pdb (Partial PDB)

@@ -77,6 +77,15 @@ int main(int argc, char *argv[])
 		case 210203:
 			running(yunm210203);
 			break;
+		case 220101:
+			running(yunm220101);
+			break;
+		case 230101:
+			running(yunm230101);
+			break;
+		case 230201:
+			running(yunm230201);
+			break;
 		case -1:
 			return 0;
 			break;
