@@ -1,0 +1,19 @@
+﻿  ym261_.c
+  test.c
+d:\documents\project\yunseongwu_c\fileinput\challenge_4\challenge_4\test.c(22): warning C4013: 'SetColor'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+d:\documents\project\yunseongwu_c\fileinput\challenge_4\challenge_4\test.c(34): warning C4013: 'gets'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+d:\documents\project\yunseongwu_c\fileinput\challenge_4\challenge_4\test.c(30): warning C4101: 'num' :참조되지 않은 지역 변수입니다.
+  main.c
+d:\documents\project\yunseongwu_c\fileinput\challenge_4\challenge_4\main.c(8): warning C4013: 'SetColor'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+d:\documents\project\yunseongwu_c\fileinput\challenge_4\challenge_4\main.c(10): warning C4013: 'NormalColor'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+d:\documents\project\yunseongwu_c\fileinput\challenge_4\challenge_4\main.c(44): warning C4113: 'int (__cdecl *)()'은(는) 'int (__cdecl *)(void)'과(와) 매개 변수 목록이 다릅니다.
+d:\documents\project\yunseongwu_c\fileinput\challenge_4\challenge_4\main.c(47): warning C4113: 'int (__cdecl *)()'은(는) 'int (__cdecl *)(void)'과(와) 매개 변수 목록이 다릅니다.
+d:\documents\project\yunseongwu_c\fileinput\challenge_4\challenge_4\main.c(50): warning C4113: 'int (__cdecl *)()'은(는) 'int (__cdecl *)(void)'과(와) 매개 변수 목록이 다릅니다.
+d:\documents\project\yunseongwu_c\fileinput\challenge_4\challenge_4\main.c(53): warning C4113: 'int (__cdecl *)()'은(는) 'int (__cdecl *)(void)'과(와) 매개 변수 목록이 다릅니다.
+d:\documents\project\yunseongwu_c\fileinput\challenge_4\challenge_4\main.c(62): warning C4113: 'int (__cdecl *)()'은(는) 'int (__cdecl *)(void)'과(와) 매개 변수 목록이 다릅니다.
+d:\documents\project\yunseongwu_c\fileinput\challenge_4\challenge_4\main.c(65): warning C4113: 'int (__cdecl *)()'은(는) 'int (__cdecl *)(void)'과(와) 매개 변수 목록이 다릅니다.
+d:\documents\project\yunseongwu_c\fileinput\challenge_4\challenge_4\main.c(38): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: 'scanf' 선언을 참조하십시오.
+  코드를 생성하고 있습니다...
+  Challenge_4.vcxproj -> D:\Documents\project\YunSeongWu_C\fileinput\Challenge_4\Debug\Challenge_4.exe
+  Challenge_4.vcxproj -> D:\Documents\project\YunSeongWu_C\fileinput\Challenge_4\Debug\Challenge_4.pdb (Partial PDB)
