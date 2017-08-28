@@ -36,6 +36,24 @@
     <ClCompile Include="ym261_.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="y41.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="y42.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="y43.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="y44.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="y45.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="variable factor function.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">

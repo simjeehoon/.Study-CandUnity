@@ -43,8 +43,23 @@ int main(void)
 		case 1:
 			func(N1);
 			break;
+		case 2:
+			func(N2);
+			break;
 		case 41:
 			func(y41);
+			break;
+		case 42:
+			func(y42);
+			break;
+		case 43:
+			func(y43);
+			break;
+		case 44:
+			func(y44);
+			break;
+		case 45:
+			func(y45);
 			break;
 		case 2521:
 			func(M(2521));

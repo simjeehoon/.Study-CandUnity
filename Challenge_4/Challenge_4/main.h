@@ -9,5 +9,10 @@ int ym2521();
 int ym2522();
 int ym2611();
 int y41();
+int y42();
+int y43();
+int y44();
+int y45();
+int N2();
 
 #endif

@@ -139,6 +139,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="variable factor function.c" />
+    <ClCompile Include="y41.c" />
+    <ClCompile Include="y42.c" />
+    <ClCompile Include="y43.c" />
+    <ClCompile Include="y44.c" />
+    <ClCompile Include="y45.c" />
     <ClCompile Include="ym261_.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="N1.c" />
