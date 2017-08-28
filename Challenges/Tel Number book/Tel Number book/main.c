@@ -10,9 +10,9 @@ typedef struct phone_num {
 void scanf_reset();
 void Insert(Phone ** ph_list, int * const count);
 void Delete(Phone ** ph_list, int * const count);
-void Search(Phone ** ph_list, const int * const count);
-void Print_All(Phone ** ph_list, const int const * count);
-
+void Search(Phone * ph_list, const int count);
+void Print_All(Phone * ph_list, const int count);
+_Bool same_name_check(char * name, Phone * ph_list, const int count);
 
 int main(void)
 {
@@ -22,7 +22,7 @@ int main(void)
 
 	while (1)
 	{
-		printf("***** MENU *****\n", count);
+		printf("***** MENU *****\n");
 		printf("1. Insert\n");
 		printf("2. Delete\n");
 		printf("3. Search\n");
@@ -40,10 +40,10 @@ int main(void)
 			Delete(&phone_list, &count);
 			break;
 		case 3:
-			Search(&phone_list, &count);
+			Search(phone_list, count);
 			break;
 		case 4:
-			Print_All(&phone_list, &count);
+			Print_All(phone_list, count);
 			break;
 		case 5:
 			return 0;
@@ -57,6 +57,7 @@ int main(void)
 
 void Insert(Phone ** ph_list, int * const count)
 {
+	char name[30];
 	if (*count == 0)
 	{
 		*ph_list = (Phone *)malloc(sizeof(Phone) * (++(*count)));
@@ -69,7 +70,17 @@ void Insert(Phone ** ph_list, int * const count)
 	puts("[ INSERT ]");
 
 	printf("Input Name: ");
-	gets((*ph_list)[(*count) - 1].name);
+	while (1)
+	{
+		gets(name);
+		if (same_name_check(name, *ph_list, (*count)-1))
+		{
+			printf("Already same name is in the list. Please input another name.\nInput Name :");
+			continue;
+		}
+		break;
+	}
+	strcpy((*ph_list)[(*count) - 1].name, name);
 	printf("Input Tel Number: ");
 	gets((*ph_list)[(*count) - 1].tel_number);
 
@@ -100,7 +111,8 @@ void Delete(Phone ** ph_list, int * const count)
 		printf("Name: %s\n", (*ph_list)[i].name);
 		printf("Number: %s\n", (*ph_list)[i].tel_number);
 		printf("Do you really want to erase it? (y/n)\n");
-		while (1) {
+		while (1)
+		{
 			scanf("%c", &ch);
 			scanf_reset();
 			if (ch == 'y' || ch == 'Y')
@@ -121,6 +133,7 @@ void Delete(Phone ** ph_list, int * const count)
 					--(*count);
 					free(*ph_list);
 				}
+				puts("Delete Complete.");
 				break;
 			}
 			else if (ch == 'n' || ch == 'N')
@@ -141,46 +154,60 @@ void Delete(Phone ** ph_list, int * const count)
 	printf("\n");
 }
 
-void Search(Phone ** ph_list, const int * const count)
+void Search(Phone * ph_list, const int count)
 {
 	int i;
 	char name[30];
-	if (*count == 0) {
+	if (count == 0)
+	{
 		printf("현재 전화번호가 하나도 없으므로 수행 불가능합니다.\n\n");
 		return;
 	}
 	puts("[ SEARCH ]");
 	printf("Name to look for: ");
 	gets(name);
-	for (i = 0; i < *count; ++i)
+	for (i = 0; i < count; ++i)
 	{
-		if (strcmp((*ph_list)[i].name, name) == 0)
+		if (strcmp(ph_list[i].name, name) == 0)
 			break;
 	}
-	if (i < *count)
+	if (i < count)
 	{
-		printf("Number: %s\n", (*ph_list)[i].tel_number);
+		printf("Number: %s\n", ph_list[i].tel_number);
 	}
 	else
 	{
-		printf("There's No data\n");
+		printf("There is no such data.\n");
 	}
 	printf("\n");
 }
 
-void Print_All(Phone ** ph_list, const int const * count)
+void Print_All(Phone * ph_list, const int count)
 {
 	int i;
 
-	if (*count == 0) {
+	if (count == 0) {
 		printf("저장된 전화번호가 없습니다.\n\n");
 		return;
 	}
 	puts("[ Print All Data ]");
-	for (i = 0; i < *count; i++)
+	for (i = 0; i < count; i++)
 	{
-		printf("Name: %s	Tel: %s\n", (*ph_list)[i].name, (*ph_list)[i].tel_number);
+		printf("Name: %s	Tel: %s\n", ph_list[i].name, ph_list[i].tel_number);
 	}
 	printf("\n");
 	
+}
+
+_Bool same_name_check(char * name, Phone * ph_list, const int count)
+{
+	int i;
+	if (count > 0) {
+		for (i = 0; i < count; ++i)
+		{
+			if (strcmp(name, ph_list[i].name) == 0)
+				return 1;
+		}
+	}
+	return 0;
 }
