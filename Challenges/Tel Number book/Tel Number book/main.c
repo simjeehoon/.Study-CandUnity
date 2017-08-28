@@ -1,13 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-
-typedef struct phone_num {
-	char name[30];
-	char tel_number[40];
-}Phone;
+#include "phone.h"
 
 void scanf_reset();
+int first_read(Phone ** ph_list, int * const count);
+void file_write(FILE * const wf, Phone * const ph_list, const int count);
 void Insert(Phone ** ph_list, int * const count);
 void Delete(Phone ** ph_list, int * const count);
 void Search(Phone * ph_list, const int count);
@@ -16,9 +14,22 @@ _Bool same_name_check(char * name, Phone * ph_list, const int count);
 
 int main(void)
 {
+	FILE * ph_file;
 	int option;
 	int count = 0;
 	Phone * phone_list;
+
+	if (first_read(&phone_list, &count))
+	{
+		printf("새 파일을 생성하였습니다.\n");
+	}
+	else
+	{
+		printf("기존 파일을 불러왔습니다.\n");
+	}
+
+	ph_file = fopen("phone_list.bin", "wt");
+	file_write(ph_file, phone_list, count);
 
 	while (1)
 	{
@@ -35,9 +46,11 @@ int main(void)
 		{
 		case 1:
 			Insert(&phone_list, &count);
+			file_write(ph_file, phone_list, count);
 			break;
 		case 2:
 			Delete(&phone_list, &count);
+			file_write(ph_file, phone_list, count);
 			break;
 		case 3:
 			Search(phone_list, count);
@@ -46,12 +59,18 @@ int main(void)
 			Print_All(phone_list, count);
 			break;
 		case 5:
+			file_write(ph_file, phone_list, count);
+			fclose(ph_file);
+			if (count > 0)
+				free(phone_list);
 			return 0;
 			break;
 		default:
 			printf("잘못된 번호입니다.\n");
 		}
 	}
+	file_write(ph_file, phone_list, count);
+	fclose(ph_file);
 	return -1;
 }
 
@@ -117,13 +136,13 @@ void Delete(Phone ** ph_list, int * const count)
 			scanf_reset();
 			if (ch == 'y' || ch == 'Y')
 			{
-				if (i != *count - 1)
+				for (int j = i; j < *count - 1; j++)
 				{
-					for (int j = i; j < *count - 1; j++)
-					{
-						(*ph_list)[j] = (*ph_list)[j+1];
-					}
+					(*ph_list)[j] = (*ph_list)[j+1];
 				}
+				
+				memset(&( (*ph_list)[*count - 1] ), 0, sizeof(Phone));
+
 				if(*count > 1)
 				{
 					*ph_list = realloc(*ph_list, sizeof(Phone) * (--(*count)));

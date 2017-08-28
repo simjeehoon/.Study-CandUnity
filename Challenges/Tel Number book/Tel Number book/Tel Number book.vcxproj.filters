@@ -21,5 +21,13 @@
     <ClCompile Include="minifuncs.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="file.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="phone.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
