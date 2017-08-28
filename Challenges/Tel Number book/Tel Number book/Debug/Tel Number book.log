@@ -1,16 +1,12 @@
 ﻿  main.c
-c:\users\simjihun\documents\visual studio 2017\projects\tel number book\tel number book\main.c(31): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\simjihun\documents\visual studio 2017\projects\tel number book\tel number book\main.c(34): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: 'fopen' 선언을 참조하십시오.
-c:\users\simjihun\documents\visual studio 2017\projects\tel number book\tel number book\main.c(43): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\simjihun\documents\visual studio 2017\projects\tel number book\tel number book\main.c(46): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: 'scanf' 선언을 참조하십시오.
-c:\users\simjihun\documents\visual studio 2017\projects\tel number book\tel number book\main.c(94): warning C4013: 'gets'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-c:\users\simjihun\documents\visual studio 2017\projects\tel number book\tel number book\main.c(102): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\simjihun\documents\visual studio 2017\projects\tel number book\tel number book\main.c(97): warning C4013: 'gets'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+c:\users\simjihun\documents\visual studio 2017\projects\tel number book\tel number book\main.c(105): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\string.h(136): note: 'strcpy' 선언을 참조하십시오.
-c:\users\simjihun\documents\visual studio 2017\projects\tel number book\tel number book\main.c(135): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\simjihun\documents\visual studio 2017\projects\tel number book\tel number book\main.c(138): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(1272): note: 'scanf' 선언을 참조하십시오.
-  file.c
-c:\users\simjihun\documents\visual studio 2017\projects\tel number book\tel number book\file.c(26): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: 'fopen' 선언을 참조하십시오.
-  코드를 생성하고 있습니다...
-  Tel Number book.vcxproj -> c:\users\simjihun\documents\visual studio 2017\Projects\Tel Number book\Debug\Tel Number book.exe
-  Tel Number book.vcxproj -> c:\users\simjihun\documents\visual studio 2017\Projects\Tel Number book\Debug\Tel Number book.pdb (Partial PDB)
+  Tel Number book.vcxproj -> C:\Users\SimJihun\documents\visual studio 2017\Projects\Tel Number book\Debug\Tel Number book.exe
+  Tel Number book.vcxproj -> C:\Users\SimJihun\documents\visual studio 2017\Projects\Tel Number book\Debug\Tel Number book.pdb (Partial PDB)

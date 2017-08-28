@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "phone.h"
+#define ORIGIN_SAVE 0
+#define MODIFIED 1
 
 void file_read(FILE * rf, Phone ** ph_list, int * const count)
 {
@@ -31,3 +33,13 @@ int first_read(Phone ** ph_list, int * const count)
 	return 0; //파일이 있다.
 }
 
+int Save_file(FILE **const wf, Phone * const ph_list, const int count, int mode)
+{
+	if (MODIFIED)
+	{
+		fclose(*wf);
+		*wf = fopen("phone_list.bin", "wt");
+	}
+	
+	file_write(*wf, ph_list, count);
+}

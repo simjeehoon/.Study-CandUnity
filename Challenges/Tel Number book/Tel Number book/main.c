@@ -2,10 +2,13 @@
 #include <stdlib.h>
 #include <string.h>
 #include "phone.h"
+#define ORIGIN_SAVE 0
+#define MODIFIED 1
 
 void scanf_reset();
 int first_read(Phone ** ph_list, int * const count);
-void file_write(FILE * const wf, Phone * const ph_list, const int count);
+int Save_file(FILE **const wf, Phone * const ph_list, const int count, int mode);
+
 void Insert(Phone ** ph_list, int * const count);
 void Delete(Phone ** ph_list, int * const count);
 void Search(Phone * ph_list, const int count);
@@ -29,7 +32,7 @@ int main(void)
 	}
 
 	ph_file = fopen("phone_list.bin", "wt");
-	file_write(ph_file, phone_list, count);
+	Save_file(&ph_file, phone_list, count, ORIGIN_SAVE);
 
 	while (1)
 	{
@@ -46,11 +49,11 @@ int main(void)
 		{
 		case 1:
 			Insert(&phone_list, &count);
-			file_write(ph_file, phone_list, count);
+			Save_file(&ph_file, phone_list, count, MODIFIED);
 			break;
 		case 2:
 			Delete(&phone_list, &count);
-			file_write(ph_file, phone_list, count);
+			Save_file(&ph_file, phone_list, count, MODIFIED);
 			break;
 		case 3:
 			Search(phone_list, count);
@@ -59,7 +62,7 @@ int main(void)
 			Print_All(phone_list, count);
 			break;
 		case 5:
-			file_write(ph_file, phone_list, count);
+			Save_file(&ph_file, phone_list, count, MODIFIED);
 			fclose(ph_file);
 			if (count > 0)
 				free(phone_list);
@@ -69,7 +72,7 @@ int main(void)
 			printf("잘못된 번호입니다.\n");
 		}
 	}
-	file_write(ph_file, phone_list, count);
+	Save_file(&ph_file, phone_list, count, MODIFIED);
 	fclose(ph_file);
 	return -1;
 }
